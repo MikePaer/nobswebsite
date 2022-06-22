@@ -1,0 +1,99 @@
+.page-section {
+    color: #a96e3a;
+    background-color: #eae1d1;
+    --bs-btn-bg: #a96e3a;
+    color: #463b24;
+}
+
+.page-section-alt, .page-section-alt h2 {
+    color: #a96e3a;
+}
+
+.page-section-alt hr {
+    color: #463b24;
+}
+
+h2 {
+    /* color: #a96e3a; */
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Cormorant Garamond";
+    font-weight: 500 !important;
+    text-size-adjust: 100%;
+    font-size: 30px;
+    color: #000;
+
+}
+
+.btn-warning {
+    background-color: #a96e3a !important;
+    border: 0;
+    color: white;
+    border-radius: 0;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: "Adelle Sans"
+}
+
+
+@font-face {
+    font-family: 'Adelle Sans';
+    src: url('/fonts/AdelleSansBasic-Regular.ttf/AdelleSans-Light.woff2') format('woff2'),
+        url('/fonts/AdelleSansBasic-Regular.ttf/AdelleSans-Light.woff') format('woff'),
+        url('/fonts/AdelleSansBasic-Regular.ttf/AdelleSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Adelle Sans';
+    src: url('AdelleSans-Light.woff2') format('woff2'),
+        url('AdelleSans-Light.woff') format('woff'),
+        url('AdelleSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+ */
+
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('/fonts/AdelleSansBasic-Regular.ttf/CormorantGaramond-Regular.woff2') format('woff2'),
+        url('/fonts/AdelleSansBasic-Regular.ttf/CormorantGaramond-Regular.woff') format('woff'),
+        url('/fonts/AdelleSansBasic-Regular.ttf/CormorantGaramond-Regular.ttf') format('truetype'),
+        url('/fonts/AdelleSansBasic-Regular.ttf/CormorantGaramond-Regular.svg') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+p {
+    font-family: 'Adelle Sans';
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Cormorant Garamond';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer a {
+    text-underline-offset: 3.2px;
+    color: #a96e3a;
+    font-family: 'Adelle Sans';
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.header {
+    background: url('/images/headerbg_dark.jpg') no-repeat center/100%;
+    color: white;
+    line-height: 18px
+}
